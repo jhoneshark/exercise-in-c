@@ -52,7 +52,7 @@ int main() {
     }
 
     while (true) {
-    // se o número gerado for doferente do tipo escolhido pelo computador, gera um novo número e tenta novamente
+    // se o número gerado for diferente do tipo escolhido pelo computador, gera um novo número e tenta novamente
         if (numeroGerado != computador) {
             numeroAleatorio = dis(gen); // gera um novo numero
             if (numeroAleatorio % 2 != 0) {
