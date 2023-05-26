@@ -1,25 +1,18 @@
 #include <stdio.h>
+int main(){
 
-double notaMaxima(double valor, double valorMAximo){
-    if(valor >= valorMAximo){
-        valor = valorMAximo;
-    }
+    
+    float A, B, media, pesoA, pesoB;
+    pesoA = 3.5;
+    pesoB = 7.5;
+    
+    scanf("%f", &A);
+    scanf("%f", &B);
 
-    return valor;
-}
+    media = ((A * pesoA) + (B *pesoB)) / (pesoA + pesoB);
 
-int main()
-{
-    double nota1, nota2, media;
-    printf("Digite a primeira nota: ");
-    scanf("%lf", &nota1);
-    printf("Digite a segunda nota: ");
-    scanf("%lf", &nota2);
+    printf("MEDIA = %.5f\n", media);
+    
 
-    nota1 = notaMaxima(nota1,10.0);
-    nota2 = notaMaxima(nota2,10.0);
-
-    media = (nota1 + nota2) / 2;
-
-    printf("MEDIA = %lf", media);
+    return 0;
 }
