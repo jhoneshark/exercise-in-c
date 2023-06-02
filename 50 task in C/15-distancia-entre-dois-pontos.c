@@ -9,7 +9,8 @@ int main() {
     scanf("%lf %lf", &x2, &y2);
 
     calc = pow((x2 - x1),2) + pow((y2 - y1),2);
-
+    
+    //raiz quadrada
     distancia = sqrt(calc);
 
     printf("%.4lf", distancia);
