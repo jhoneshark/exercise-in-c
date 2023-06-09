@@ -10,11 +10,11 @@ Para executar os códigos desses desafios no seu computador, você precisa ter i
 
 #### Windows
 
-Para usuários do Windows, recomendamos o uso do [MinGW](http://www.mingw.org/), que é um ambiente de desenvolvimento para Windows que contém um compilador GCC (GNU Compiler Collection), necessário para compilar códigos em C e C++.
+Para usuários do Windows, recomendamos o uso do [MinGW](https://www.mingw-w64.org/), que é um ambiente de desenvolvimento para Windows que contém um compilador GCC (GNU Compiler Collection), necessário para compilar códigos em C e C++.
 
 Para instalar o MinGW, siga as instruções abaixo:
 
-1. Acesse a página de download do MinGW: http://www.mingw.org/download/installer.
+1. Acesse a página de download do MinGW: https://sourceforge.net/projects/mingw/.
 
 2. Baixe o instalador e execute-o.
 
